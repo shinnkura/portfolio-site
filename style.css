@@ -1,0 +1,278 @@
+/* 共通 */
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.text {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+  border: 1px solid #d8d8d8;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+
+/* header */
+
+.header {
+  display: flex;
+  /* flexの順番 reverseなどがある */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0 ;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+}
+
+li {
+  padding: 16px;
+  text-align: center;
+}
+
+li a{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+@media  screen and (max-width:768px) {
+  .header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1 {
+    padding: 16px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  .header_menu {
+    width: 100%;
+  }
+  
+  
+  ul{
+    padding: 0;
+  }
+  
+  li{
+    width: 50%;
+    /* text-align: center; */
+    padding: 16px;
+    border: 1px solid #d8d8d8;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* about_area */
+.about_area {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.about_area-img {
+  width: 50%;
+}
+
+.about_area-decpription {
+  width: 50%;
+  display: table;
+}
+
+.about_area-decpription a{
+  text-decoration: none;
+}
+
+.about_area-decription-text {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 250px;
+}
+
+.about_area-decreption-icon {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 16px;
+}
+
+.fa-twitter {
+  color: #1DA1F2;
+  font-size: 50px;
+  opacity: 0.6;
+}
+
+.fa-blog{
+  color: #008274;
+  font-size: 50px;
+  opacity: 0.6;
+}
+
+.fa-book{
+  color:#FF9900;
+  font-size: 50px;
+  opacity: 0.6;
+}
+
+
+
+.fa-twitter:hover {
+  opacity: 0.8;
+}
+
+.fa-blog:hover{
+  opacity: 0.8;
+}
+
+.fa-book:hover{
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
+@media  screen and (max-width:768px){
+  .title{
+    margin-top: 20px;
+  }
+
+  .about_area-img{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .about_area-decpription {
+    width: 100%;
+  }
+
+  .about_area-decription-text {
+    padding: 0;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+/* service */
+#service h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service-icon{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+
+.fa-code,
+.fa-feather-alt,
+.fa-video{
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+#works img{
+  margin-bottom: 40px;
+}
+
+
+/* contact */
+form {
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input{
+  display: block;
+  width: 100%;
+  border: 1px solid #d8d8d8;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #d8d8d8;
+}
+
+.form_content{
+  margin-bottom: 16px;
+}
+
+
+button {
+  background: #1b1818;
+  color: white;
+  width: 250px;
+  padding: 16px;
+  text-align: center;
+  margin: 0 auto  ;
+  display: block;
+}
+
+@media screen and (max-width:760px) {
+  .form{
+    width: 100%;
+  }
+}
+
+
+
+footer{
+  text-align: center;
+}
